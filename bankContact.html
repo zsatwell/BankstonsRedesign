@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bankston's Sport Memorabilia, Comics & Collectibles"
+    />
+    <title>Contact Us</title>
+
+    <!------- Links ------->
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/bankStyles.css" />
+  </head>
+  <body>
+    <header>
+      <div>
+        <img
+          src="images/header_c.jpg"
+          alt="super hero header"
+          width="1920"
+          height="397"
+        />
+      </div>
+      <div class="logo">
+        <img src="images/logo_c.png" alt="Bankston's logo" />
+      </div>
+      <div class="flex-container">
+        <nav>
+          <ul>
+            <li><a href="bankHome.html">Home</a></li>
+            <li><a href="bankComics.html">Comics</a></li>
+            <li><a href="bankSports.html">Sports</a></li>
+            <li><a href="bankToys.html">Toys</a></li>
+            <li><a href="bankAbout.html">About Us</a></li>
+            <li><a href="bankContact.html">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h1 class="page_title">Contact Information</h1>
+      <section>
+        <h2 class="p_title">Store Hours</h2>
+        <p class="text_content">
+          Monday: 10:30AM - 6PM<br />Tuesday 10:30AM - 6PM<br />Wednesday
+          10:30AM - 6PM<br />Thursday 10:30AM - 6PM<br />Friday 10:30AM - 6PM<br />
+          10:30AM - 6PM<br />Sunday Closed
+        </p>
+        <h2 class="p_title">Phone Number</h2>
+        <p class="text_content">
+          (254) 755-0070<br />1321 S Valley Mills Dr, Waco, TX 76711
+        </p>
+      </section>
+      <section>
+        <form>
+          <fieldset>
+            <h3 class="p_subtitle">Contact Information</h3>
+            <label for="name">Name:</label><br />
+            <input id="name" name="name" /><br />
+            <label for="email">Email:</label><br />
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="email@example.com"
+            /><br />
+            <label>Where did you hear about us?:</label><br />
+            <input
+              type="radio"
+              id="friend"
+              name="hear"
+              value="friendorfamily"
+            />
+            <label for="friend">Friend or Family member</label><br />
+            <input type="radio" id="web" name="hear" value="websearch" />
+            <label for="web">From the web</label><br />
+            <input type="radio" id="social" name="socialmedia" />
+            <label for="social">From social media</label><br />
+            <label for="message">Your Message:</label>
+            <input id="message" name="message" />
+          </fieldset>
+          <input class="form_buttons" type="submit" value="Submit" />
+          <input class="form_buttons" type="reset" value="Reset" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2021-2022 Bankston's</p>
+      <p>All rights reserved</p>
+    </footer>
+  </body>
+</html>
